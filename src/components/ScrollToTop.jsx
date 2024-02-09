@@ -1,25 +1,41 @@
-import { useState, useEffect } from 'react';
-function ScrollToTop() {
-    const [isVisible, setIsVisible] = useState(false);
-    const toggleVisibility = () => {
-        if (window.scrollY > 300) {
-            setIsVisible(true);
-        } else {
-            setIsVisible(false);
-        }
-    };
-    const scrollToTop = () => {
+import React, { useState, useEffect } from "react";
+
+const ScrollToTop = () => {
+    const [showButton, setShowButton] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 400) {
+                setShowButton(true);
+            } else {
+                setShowButton(false);
+            }
+        };
+
+        const handleIdle = () => {
+            setShowButton(false);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        document.addEventListener("mousemove", handleIdle);
+        document.addEventListener("keypress", handleIdle);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+            document.removeEventListener("mousemove", handleIdle);
+            document.removeEventListener("keypress", handleIdle);
+        };
+    }, []);
+
+    const handleScrollTop = () => {
         window.scrollTo({
             top: 0,
-            behavior: "smooth"
+            behavior: "smooth",
         });
     };
-    useEffect(() => {
-        window.addEventListener("scroll", toggleVisibility);
-    }, []);
+
     return (
-        isVisible &&
-        <div onClick={scrollToTop} className='fixed z-40 bottom-5 right-3 sm:right-5'>
+        <div className={`scroll-to-top ${showButton ? "show" : ""}`} onClick={handleScrollTop} >
             <button className="rounded-full hover:shadow-[0_0_20px_1px_#72EC90] hover:w-[100px] sm:hover:w-[140px] hover:duration-300 hover:bg-gradient-to-br hover:to-[#51C8EF] hover:from-[#7AF57A] relative before:absolute before:-bottom-5 backToTop before:text-white before:text-[0px] hover:before:text-sm sm:hover:before:text-xl before:duration-300 hover:before:bottom-3 hover:before:duration-300 group z-50 w-[40px] sm:w-[50px] h-[40px] sm:h-[50px] bg-[rgb(20,20,20)] font-semibold flex items-center justify-center shadow-[0_0_0_4px_rgba(180,160,255,0.253)] overflow-hidden">
                 <svg className=" w-3 duration-300 fill-white group-hover:translate-y-[200%]" viewBox="0 0 384 512">
                     <path
@@ -27,9 +43,8 @@ function ScrollToTop() {
                     ></path>
                 </svg>
             </button>
-
-        </div>
+        </div >
     );
-}
+};
 
 export default ScrollToTop;

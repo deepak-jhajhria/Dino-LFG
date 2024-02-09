@@ -10,14 +10,14 @@ import { TekoFirst, TekoFirstLine, TekoFive, TekoFiveLine, TekoFourth, TekoFourt
 
 const Tokenomics = () => {
     return (
-        <div className="relative bg-[#0A4740] min-h-[1217px]">
-            <img className="absolute right-0 -mt-1" src={shadow} alt="image" />
-            <img className="absolute bottom-0 right-0 -mt-1" src={shadow2} alt="image" />
-            <img className="absolute bottom-0 left-0 -mt-1" src={tree1} alt="image" />
-            <img className="absolute bottom-16 left-[30%] -mt-1" src={tree2} alt="image" />
-            <img className="absolute bottom-0 right-0 -mt-1" src={tree3} alt="image" />
-            <img className="absolute bottom-0 right-0 -mt-1" src={tree4} alt="image" />
-            <img className="absolute bottom-0 left-0 -mt-1 translate-y-[40%]" src={panda} alt="image" />
+        <div className="relative bg-[#0A4740] min-h-[450px] sm:min-h-[700px] md:min-h-[1000px] lg:min-h-[1217px] overflow-hidden">
+            <img className="absolute right-0 -mt-1 min-h-[17%]" src={shadow} alt="image" />
+            <img className="absolute bottom-0 right-0 -mt-1 min-h-[17%]" src={shadow2} alt="image" />
+            <img className="absolute bottom-0 left-0 -mt-1 w-[21%]" src={tree1} alt="image" />
+            <img className="absolute bottom-16 left-[30%] max-md:bottom-3 -mt-1 w-[8%] sm:w-[5.5%]" src={tree2} alt="image" />
+            <img className="absolute bottom-0 right-[40%] -mt-1 w-[8%] sm:w-[5.5%]" src={tree3} alt="image" />
+            <img className="absolute bottom-0 right-[8%] sm:right-[10%] -mt-1 w-[20%] sm:w-[12%]" src={tree4} alt="image" />
+            <img className="absolute bottom-0 left-0 -mt-1 translate-y-[40%] w-[30%] sm:w-[26%]" src={panda} alt="image" />
             <div className="container relative z-[1] max-w-[1147px] pt-10 sm:pt-[100px] md:pt-[150px] lg:pt-[246px]">
                 <h2 className="text-white font-normal font-Chewy sm:text-[64px] text-[35px] leading-[83px] text-center">Tokenomics</h2>
                 <div className="relative flex items-center justify-center  sm:mt-12 md:mt-16 lg:mt-20 max-w-[133px] mx-auto">
