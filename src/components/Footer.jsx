@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className=" bg-[#0A4740] w-full relative">
             <div className="w-full mx-auto max-w-[376px] flex flex-col items-center justify-center gap-4 md:gap-[33px] lg:-mb-[72px]">
-                <h2 className=' font-Lucky text-[65px] sm:text-[80.366px] text-center leading-[95%] font-normal text-[#FBA11D] drop-shadow-[0px_1.337px_0px_#000] mt-[100px] sm:mt-[150px] md:mt-[200px] lg:mt-[277px]'>
+                <h2 className=' font-Lucky text-[65px] sm:text-[80.366px] text-center leading-[95%] font-normal text-[#FBA11D] drop-shadow-[0px_1.337px_0px_#000] mt-[50px] sm:mt-[150px] md:mt-[200px] lg:mt-[247px]'>
                     D
                     <span className='text-[#23AAAC]'>i</span>
                     <span className='text-[#D45B07]'>n</span>
