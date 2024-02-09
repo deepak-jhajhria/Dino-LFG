@@ -14,8 +14,8 @@ export const Index = () => {
             <Tokenomics />
             <Utility />
             <Roadmap />
-            {/* <Faq /> */}
-            {/* <Footer /> */}
+            <Faq />
+            <Footer />
         </div>
     )
 }
