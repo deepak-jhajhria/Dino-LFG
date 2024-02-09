@@ -20,7 +20,7 @@ export const Header = () => {
                     <span>
                         <span className='text-[#8EC627] duration-300 hover:text-[#D45B07]'>L</span>
                         <span className='text-[#FCCA2B] duration-300 hover:text-[#23AAAC]'>F</span>
-                        <span className=' text-[#8F78D2] duration-300 hover:text-[#FBA11D]'>G</span>
+                        <span className='text-[#8F78D2] duration-300 hover:text-[#FBA11D]'>G</span>
                     </span>
                 </h1>
             </div>
