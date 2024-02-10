@@ -8,7 +8,6 @@ import panda from "../assets/images/pandateko.webp";
 import panda2 from "../assets/images/tekopanda.webp";
 import sky from "../assets/images/tekosky.webp";
 import { TekoFirst, TekoFirstLine, TekoFive, TekoFiveLine, TekoFourth, TekoFourthLine, TekoSecond, TekoSecondLine, TekoThird, TekoThirdLine } from "./Icons";
-
 const Tokenomics = () => {
     return (
         <div className="relative bg-[#0A4740] min-h-[450px] sm:min-h-[700px] md:min-h-[1000px] lg:min-h-[1217px] overflow-hidden">

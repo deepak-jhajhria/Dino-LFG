@@ -30,6 +30,8 @@ export default {
         flip: "plane 6s infinite linear",
         flip1: "plane1 6s infinite linear",
         flip3: "dragon 4s infinite linear alternate",
+        cycle: "dino 20s linear infinite",
+        cycle2: "dino2 20s linear infinite",
       },
       keyframes: {
         plane: {
@@ -43,7 +45,15 @@ export default {
         dragon: {
           "0%": { transform: "translateY(0%)" },
           "100%": { transform: "translateY(-15%)" },
-        }
+        },
+        dino: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100vw)" },
+        },
+        dino2: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(350px)" },
+        },
       }
     },
   },

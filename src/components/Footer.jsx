@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
             </div>
             <img className="w-full max-sm:min-h-[150px]" src={footerbottom} alt="image" />
-            <img className="absolute bottom-4 right-20 max-lg:w-[16%]" src={dino} alt="image" />
+            <img className="absolute bottom-4 right-20 max-lg:w-[16%] animate-cycle" src={dino} alt="image" />
         </div>
     )
 }
