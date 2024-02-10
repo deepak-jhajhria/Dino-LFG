@@ -3,9 +3,9 @@ import footerbottom from '../assets/images/footerbottom.png'
 import dino from '../assets/images/footerdino.png'
 const Footer = () => {
     return (
-        <div className=" bg-[#0A4740] w-full relative">
-            <div className="w-full mx-auto max-w-[376px] flex flex-col items-center justify-center gap-4 md:gap-[33px] lg:-mb-[72px]">
-                <h2 className=' font-Lucky text-[65px] sm:text-[80.366px] text-center leading-[95%] font-normal text-[#FBA11D] drop-shadow-[0px_1.337px_0px_#000] mt-[50px] sm:mt-[150px] md:mt-[200px] lg:mt-[247px]'>
+        <div className=" bg-[#0A4740] w-full relative -mt-[1px]">
+            <div className="w-full mx-auto max-w-[376px] flex flex-col items-center justify-center gap-4 md:gap-[33px] lg:-mb-[72px] relative z-10">
+                <h2 className=' font-Lucky text-[65px] sm:text-[80.366px] text-center leading-[95%] font-normal text-[#FBA11D] drop-shadow-[0px_1.337px_0px_#000] mt-[50px] sm:mt-[130px] md:mt-[180px] lg:mt-[213px]'>
                     D
                     <span className='text-[#23AAAC]'>i</span>
                     <span className='text-[#D45B07]'>n</span>

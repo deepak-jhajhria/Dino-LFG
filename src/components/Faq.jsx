@@ -16,11 +16,11 @@ const Faq = () => {
     return (
         <div className="relative bg-[#0A4740]">
             <img className="w-full -translate-y-4" src={shadow} alt="shadow" />
-            <div className="container max-w-[970px] -mb-6 overflow-clip">
+            <div className="container max-w-[970px] -mt-5 overflow-clip">
                 <h2 className='sm:text-[64px] text-[40px] font-normal text-white text-center font-Chewy md:leading-[83.63px] md:mb-[97px]leading-[132%] relative z-10 mb-4'>FAQs</h2>
                 <div className="mt-6 sm:mt-10 lg:mt-[61px] pb-10">
                     {accordionData.map((item, index) => (
-                        <div data-aos="fade-up" data-aos-duration="400" className={`border border-white mb-4 sm:mb-6 md:mb-[22px] bg-[#09655A] px-3 xs:px-4 ${item.id === 5 ? "!-mb-0" : ""} ${open === index ? "rounded-2xl md:px-[40px]" : "rounded-[30px] sm:rounded-full md:px-[50px]"}`} key={item.title}>
+                        <div data-aos="fade-up" data-aos-duration="400" className={`border border-white mb-4 sm:mb-6 md:mb-[23px] bg-[#09655A] px-3 xs:px-4 ${item.id === 5 ? "!-mb-0" : ""} ${open === index ? "rounded-2xl md:px-[40px]" : "rounded-[30px] sm:rounded-full md:px-[50px]"}`} key={item.title}>
                             <div onClick={() => toggleAccordion(index)} className={` ${open === index ? "" : ""} cursor-pointer flex items-center pt-4 sm:pt-[21px] pb-4 sm:pb-[19px] justify-between`}>
                                 <h2 data-aos="fade-up" data-aos-duration="500" className="w-[90%] text-white font-Balsamiq font-bold text-sm xs:text-base sm:text-lg md:text-xl leading-6">{item.title}</h2>
                                 <span data-aos="fade-up" data-aos-duration="500" className="flex items-center justify-center mt-1">{open === index ? (<span className="flex items-center justify-center bg-white rounded-full w-9 h-9"><FaqDown /></span>) : (<span className="flex items-center justify-center bg-white rounded-full w-9 h-9"><FaqUp /></span>)}</span>

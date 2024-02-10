@@ -10,9 +10,9 @@ const Roadmap = () => {
     return (
         <div className='bg-[#09655A] -mt-2 relative overflow-hidden'>
             <div className='max-w-[1140px] mx-auto px-3'>
-                <div id='Roadmap' className=' sm:pt-0 pt-[45px] pb-8 sm:pb-[80px] relative'>
-                    <h2 className='sm:text-[64px] text-[40px] font-normal text-white text-center font-Chewy leading-[83.63px] md:mb-[97px]leading-[132%] relative mb-10'>Roadmap</h2>
-                    <div className="container max-w-[768px] lg:max-w-[1000px] relative lg:mt-[90px]">
+                <div id='Roadmap' className=' sm:pt-0 pt-[35px] pb-8 sm:pb-[64px] relative'>
+                    <h2 className='sm:text-[64px] text-[40px] font-normal text-white text-center font-Chewy leading-[132%] relative mb-10'>Roadmap</h2>
+                    <div className="container max-w-[768px] lg:max-w-[1000px] relative lg:mt-[83px]">
                         <div data-aos="zoom-in" className='relative flex flex-col items-center justify-between lg:flex-row max-md:ml-10 max-sm:gap-5 z-[1]'>
                             <div className='flex items-center max-sm:gap-5 max-sm:flex-col'>
                                 <h2 className='text-[100px] sm:text-[150px] md:text-[200px] font-normal sm:leading-[130%] leading-[70%] font-Chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]'>01 </h2>
@@ -46,7 +46,7 @@ const Roadmap = () => {
                             </div>
                             <img src={Timedinechris} alt="Timedinechris" className='max-sm:w-[50%] max-sm:mt-7' />
                         </div>
-                        <div data-aos="zoom-in" className='relative z-10 mt-8 md:mt-[100px] lg:mt-[222px] max-sm:pb-0 max-lg:pb-20 flex max-md:ml-10 max-sm:justify-center md:justify-center'>
+                        <div data-aos="zoom-in" className='relative z-10 mt-8 md:mt-[100px] lg:mt-[214px] max-sm:pb-0 max-lg:pb-20 flex max-md:ml-10 max-sm:justify-center md:justify-center'>
                             <div className='flex flex-col items-center md:items-start'>
                                 <div className='flex items-center max-sm:gap-5 max-sm:flex-col'>
                                     <h2 className='text-[100px] sm:text-[150px] md:text-[200px] font-Chewy font-normal text-[#23AAAC] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] leading-[100%] sm:leading-[145%]'>04</h2>
@@ -56,7 +56,7 @@ const Roadmap = () => {
                                         <li className='text-base sm:text-lg md:text-xl font-normal font-Balsamiq text-white leading-[121%]'>Marketing Phase 4</li>
                                     </ol>
                                 </div>
-                                <img src={Timegrass} alt="Timegrass" className='lg:mt-10 max-sm:mt-5 max-sm:w-[50%]' />
+                                <img src={Timegrass} alt="Timegrass" className='lg:mt-10 md:-translate-y-4 max-sm:mt-5 max-sm:w-[50%]' />
                             </div>
                         </div>
                         <img src={TimelineDashed} alt="TimelineDashed" className='absolute max-lg:hidden w-full top-[111px] left-[7%] h-[90%] z-0' />

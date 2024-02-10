@@ -7,7 +7,7 @@ import bottomlayer from '../assets/images/utilitybottomshadow.png';
 
 const Utility = () => {
     return (
-        <div className='relative overflow-hidden xl:pb-[466px] md:pb-[300px] sm:pb-[190px] xl:pt-[230px] sm:pt-[150px] pt-[60px] pb-[100px] xs:pb-[150px] bg-[#0A4740]'>
+        <div className='relative overflow-hidden xl:pb-[466px] md:pb-[300px] sm:pb-[190px] xl:pt-[218px] sm:pt-[150px] pt-[60px] pb-[100px] xs:pb-[150px] bg-[#0A4740]'>
             <div className='container max-w-[1038px] relative z-10'>
                 <h2 className='font-Chewy sm:text-[64px] text-[35px] font-normal text-white text-center leading-[132%]'>Utility and Usecase</h2>
                 <div className='relative z-10 xl:mt-[158px] max-lg:overflow-hidden lg:mt-[100px] md:mt-[70px] mt-[30px] rounded-[20px] border border-solid lg:h-[266px] border-white bg-[#09655A] lg:py-[62px] pt-[40px] lg:pl-[39px] lg:pr-[26px] px-[20px] flex lg:justify-between lg:flex-row flex-col'>

@@ -11,6 +11,7 @@ export default {
       'md': '768px',
       'lg': '1024px',
       'xl': '1180px',
+      '2xl': '1441px',
     },
     container: {
       padding: {
@@ -24,7 +25,27 @@ export default {
       Lucky: ['Lucky Dino', 'sans-serif'],
       Balsamiq: ['Balsamiq Sans', 'sans-serif']
     },
-    extend: {},
+    extend: {
+      animation: {
+        flip: "plane 6s infinite linear",
+        flip1: "plane1 6s infinite linear",
+        flip3: "dragon 4s infinite linear alternate",
+      },
+      keyframes: {
+        plane: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-500%)" },
+        },
+        plane1: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(500%)" },
+        },
+        dragon: {
+          "0%": { transform: "translateY(0%)" },
+          "100%": { transform: "translateY(-15%)" },
+        }
+      }
+    },
   },
   plugins: [],
 }
