@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
-
 export const usePreloader = () => {
     const [isLoading, setIsLoading] = useState(true);
-
     useEffect(() => {
         setIsLoading(true);
         document.body.classList.add("overflow-hidden")
@@ -11,7 +9,6 @@ export const usePreloader = () => {
             document.body.classList.remove("overflow-hidden")
         }, 3500);
     }, []);
-
     return isLoading;
 }
 

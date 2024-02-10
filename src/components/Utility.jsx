@@ -1,13 +1,13 @@
-import React from 'react';
-import dino1 from '../assets/images/utilitydino1.png';
-import dino2 from '../assets/images/utilitydino2.png';
-import Tree from '../assets/images/utilitytree.png';
-import toplayer from '../assets/images/utilitytopshadow.png';
-import bottomlayer from '../assets/images/utilitybottomshadow.png';
+import dino1 from '../assets/images/utilitydino1.webp';
+import dino2 from '../assets/images/utilitydino2.webp';
+import Tree from '../assets/images/utilitytree.webp';
+import toplayer from '../assets/images/utilitytopshadow.webp';
+import bottomlayer from '../assets/images/utilitybottomshadow.webp';
 
 const Utility = () => {
     return (
-        <div className='relative overflow-hidden xl:pb-[466px] md:pb-[300px] sm:pb-[190px] xl:pt-[218px] sm:pt-[150px] pt-[60px] pb-[100px] xs:pb-[150px] bg-[#0A4740]'>
+        <div className='relative overflow-hidden bg-[#0A4740]'>
+            <img src={toplayer} alt="images" className='w-full' />
             <div className='container max-w-[1038px] relative z-10'>
                 <h2 data-aos="fade-up" data-aos-duration="1500" className='font-Chewy sm:text-[64px] text-[35px] font-normal text-white text-center leading-[132%]'>Utility and Usecase</h2>
                 <div className='relative z-10 xl:mt-[158px] max-lg:overflow-hidden lg:mt-[100px] md:mt-[70px] mt-[30px] rounded-[20px] border border-solid lg:h-[266px] border-white bg-[#09655A] lg:py-[62px] pt-[40px] lg:pl-[39px] lg:pr-[26px] px-[20px] flex lg:justify-between lg:flex-row flex-col'>
@@ -32,8 +32,7 @@ const Utility = () => {
                 </div>
             </div>
             <img src={Tree} alt="tree" className='lg:max-w-[320px] max-w-[200px] top-[40%] w-full absolute right-0 bottom-0' />
-            <img src={toplayer} alt="images" className='absolute top-0 left-0 right-0 w-full' />
-            <img src={bottomlayer} alt="image" className='absolute left-0 right-0 bottom-[-13px] w-full' />
+            <img src={bottomlayer} alt="image" className='w-full translate-y-2 mt-12 sm:mt-20 md:mt-[120px] lg:mt-[168px]' />
         </div>
     )
 }

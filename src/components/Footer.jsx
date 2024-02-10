@@ -1,6 +1,6 @@
 import { DiscordFooter, InstaFooter, TwitterFooter } from "./Icons"
-import footerbottom from '../assets/images/footerbottom.png'
-import dino from '../assets/images/footerdino.png'
+import footerbottom from '../assets/images/footerbottom.webp'
+import dino from '../assets/images/footerdino.webp'
 const Footer = () => {
     return (
         <div className=" bg-[#0A4740] w-full relative -mt-[1px]">

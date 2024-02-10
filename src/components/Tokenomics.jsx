@@ -1,27 +1,27 @@
-import shadow from "../assets/images/shadowaboutsec.png";
-import shadow2 from "../assets/images/shadowtekosecbottom2.png";
+import shadow from "../assets/images/shadowaboutsec.webp";
+import shadow2 from "../assets/images/shadowtekosecbottom2.webp";
 import tree1 from "../assets/images/treeleft1.webp";
 import tree2 from "../assets/images/treeleft2.webp";
 import tree3 from "../assets/images/treeleft3.webp";
 import tree4 from "../assets/images/treeleft4.webp";
 import panda from "../assets/images/pandateko.webp";
-import panda2 from "../assets/images/tekopanda.png";
-import sky from "../assets/images/tekosky.png";
+import panda2 from "../assets/images/tekopanda.webp";
+import sky from "../assets/images/tekosky.webp";
 import { TekoFirst, TekoFirstLine, TekoFive, TekoFiveLine, TekoFourth, TekoFourthLine, TekoSecond, TekoSecondLine, TekoThird, TekoThirdLine } from "./Icons";
 
 const Tokenomics = () => {
     return (
         <div className="relative bg-[#0A4740] min-h-[450px] sm:min-h-[700px] md:min-h-[1000px] lg:min-h-[1217px] overflow-hidden">
-            <img className="absolute right-0 -mt-1 min-h-[17%]" src={shadow} alt="image" />
+            <img className=" right-0 -mt-1 min-h-[17%]" src={shadow} alt="image" />
             <img className="absolute right-0 top-[10%] w-[30%]" src={sky} alt="image" />
-            <img className="absolute bottom-0 right-0 -mt-1 min-h-[17%]" src={shadow2} alt="image" />
+            <img className="absolute bottom-0 right-0 -mt-1 min-h-[17%] w-full" src={shadow2} alt="image" />
             <img className="absolute bottom-0 left-0 -mt-1 w-[21%]" src={tree1} alt="image" />
             <img className="absolute bottom-16 left-[30%] max-md:bottom-3 -mt-1 w-[8%] sm:w-[5.5%]" src={tree2} alt="image" />
             <img className="absolute bottom-0 right-[40%] -mt-1 w-[8%] sm:w-[5.5%]" src={tree3} alt="image" />
             <img className="absolute bottom-0 right-[8%] sm:right-[10%] -mt-1 w-[20%] sm:w-[12%]" src={tree4} alt="image" />
             <img className="absolute bottom-0 left-0 -mt-1 translate-y-[40%] w-[30%] sm:w-[26%]" src={panda} alt="image" />
-            <div className="container relative z-[1] max-w-[1147px] pt-10 sm:pt-[100px] md:pt-[150px] lg:pt-[241px]">
-                <h2 data-aos="fade-up" data-aos-duration="1500" className="text-white font-normal font-Chewy sm:text-[64px] text-[35px] leading-[83px] text-center">Tokenomics</h2>
+            <div className="container relative z-[1] max-w-[1147px]">
+                <h2 id="teko" data-aos="fade-up" data-aos-duration="1500" className="text-white font-normal font-Chewy sm:text-[64px] text-[35px] leading-[83px] text-center">Tokenomics</h2>
                 <div className="relative flex items-center justify-center  sm:mt-12 md:mt-16 lg:mt-20 max-w-[133px] mx-auto">
                     <img data-aos="fade-up" data-aos-duration="1500" className=" w-full max-w-[80px] sm:max-w-[113px] md:max-w-[133px] animate-flip3" src={panda2} alt="images" />
 

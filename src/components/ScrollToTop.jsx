@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 const ScrollToTop = () => {
     const [showButton, setShowButton] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
@@ -36,14 +35,12 @@ const ScrollToTop = () => {
             document.removeEventListener("keypress", handleIdle);
         };
     }, []);
-
     const handleScrollTop = () => {
         window.scrollTo({
             top: 0,
             behavior: "smooth",
         });
     };
-
     return (isVisible &&
         <div className={`scroll-to-top z-10 opacity-0 duration-500 fixed hover:opacity-100 right-5 bottom-4 ${showButton ? "opacity-100" : ""}`} onClick={handleScrollTop} >
             <button className="rounded-full hover:shadow-[0_0_20px_1px_#FBA11D] hover:w-[100px] sm:hover:w-[140px] hover:duration-300 hover:bg-gradient-to-br hover:to-[#FBA11D] hover:from-[#FEBF1A] relative before:absolute before:-bottom-5 backToTop before:text-black before:text-[0px] hover:before:text-sm sm:hover:before:text-xl before:duration-300 hover:before:bottom-3 hover:before:duration-300 group z-[100] w-[40px] sm:w-[50px] h-[40px] sm:h-[50px] bg-[#FBA11D] font-semibold flex items-center justify-center shadow-[0_0_0_4px_rgba(180,160,255,0.253)] overflow-hidden">

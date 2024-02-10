@@ -5,6 +5,10 @@
   src: url('./assets/font/LuckyDino.otf');
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .backToTop::before {
   content: "Back To Top" !important;
 }

@@ -1,16 +1,15 @@
-import React from 'react';
-import heloImg from '../assets/images/roadmapaeroplane.png';
-import TimelineDashed from '../assets/images/roadmaplinecenter.png';
-import TimelineDashed2 from '../assets/images/roadmaplinecenter2nd.png';
-import TimeChris from '../assets/images/roadmaptree1.png';
-import Timedinechris from '../assets/images/roadmaptree2.png';
-import Timegrass from '../assets/images/roadmaptree3.png';
+import heloImg from '../assets/images/roadmapaeroplane.webp';
+import TimelineDashed from '../assets/images/roadmaplinecenter.webp';
+import TimelineDashed2 from '../assets/images/roadmaplinecenter2nd.webp';
+import TimeChris from '../assets/images/roadmaptree1.webp';
+import Timedinechris from '../assets/images/roadmaptree2.webp';
+import Timegrass from '../assets/images/roadmaptree3.webp';
 
 const Roadmap = () => {
     return (
         <div className='bg-[#09655A] -mt-2 relative overflow-hidden'>
             <div className='max-w-[1140px] mx-auto px-3'>
-                <div id='Roadmap' className=' sm:pt-0 pt-[35px] pb-8 sm:pb-[64px] relative'>
+                <div id='roadmap' className=' sm:pt-0 pt-[35px] pb-8 sm:pb-[64px] relative'>
                     <h2 data-aos="fade-up" data-aos-duration="1500" className='sm:text-[64px] text-[40px] font-normal text-white text-center font-Chewy leading-[132%] relative mb-10'>Roadmap</h2>
                     <div className="container max-w-[768px] lg:max-w-[1000px] relative lg:mt-[83px]">
                         <div className='relative flex flex-col items-center justify-between lg:flex-row max-md:ml-10 max-sm:gap-5 z-[1]'>

@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { FaqDown, FaqUp } from "./Icons";
-import shadow from '../assets/images/faqshadowup.png'
+import shadow from '../assets/images/faqshadowup.webp'
 const Faq = () => {
     const [open, setOpen] = useState(null);
     const toggleAccordion = (index) => {
@@ -16,7 +16,7 @@ const Faq = () => {
     return (
         <div className="relative bg-[#0A4740]">
             <img className="w-full -translate-y-4" src={shadow} alt="shadow" />
-            <div className="container max-w-[970px] -mt-5 overflow-clip">
+            <div id="faq" className="container max-w-[970px] -mt-5 overflow-clip">
                 <h2 data-aos="fade-up" data-aos-duration="1500" className='sm:text-[64px] text-[40px] font-normal text-white text-center font-Chewy md:leading-[83.63px] md:mb-[97px]leading-[132%] relative z-10 mb-4'>FAQs</h2>
                 <div data-aos="fade-up" data-aos-duration="1500" className="mt-6 sm:mt-10 lg:mt-[61px] pb-10">
                     {accordionData.map((item, index) => (

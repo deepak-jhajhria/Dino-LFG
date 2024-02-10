@@ -3,8 +3,8 @@ import aeroplane from '../assets/images/aeroplane.webp'
 import diyno2 from '../assets/images/diyno2.webp'
 import headerbottombg from '../assets/images/headerbottombg.webp'
 import bottomshadow from '../assets/images/bottomshadw.webp'
-import skyleft from '../assets/images/skyheaderleft.png'
-import skyright from '../assets/images/skyheaderright.png'
+import skyleft from '../assets/images/skyheaderleft.webp'
+import skyright from '../assets/images/skyheaderright.webp'
 export const Header = () => {
     return (
         <header className="bg-[url(./assets/images/headerbg2.webp)] bg-cover bg-center w-full min-h-[730px] sm:min-h-[890px] 2xl:min-h-[70vh] relative overflow-hidden -top-[100px]">

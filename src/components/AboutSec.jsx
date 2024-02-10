@@ -4,7 +4,7 @@ import panda from '../assets/images/aboutsecpanda.webp'
 
 const AboutSec = () => {
     return (
-        <div className='bg-[#09655A] -mt-28 relative z-[3]'>
+        <div id='about' className='bg-[#09655A] -mt-28 relative z-[3]'>
             <div className='container mx-auto xl:max-w-[1157px] px-3 xl:px-6 relative z-20 pt-8 sm:pt-20 lg:pt-[77px] pb-6 -mb-[1px]'>
                 <div className='flex items-center justify-center sm:flex-row flex-col sm:gap-[22px] gap-[5px]'>
                     <h3 data-aos="fade-up" data-aos-duration="1500" className=' font-Chewy sm:text-[64px] text-[40px] font-normal text-white leading-[132%]'>About</h3>

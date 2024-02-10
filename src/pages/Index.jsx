@@ -8,7 +8,7 @@ import Utility from "../components/Utility"
 
 export const Index = () => {
     return (
-        <div>
+        <>
             <Header />
             <AboutSec />
             <Tokenomics />
@@ -16,6 +16,6 @@ export const Index = () => {
             <Roadmap />
             <Faq />
             <Footer />
-        </div>
+        </>
     )
 }
