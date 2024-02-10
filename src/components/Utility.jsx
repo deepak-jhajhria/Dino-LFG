@@ -9,7 +9,7 @@ const Utility = () => {
         <div className='relative overflow-hidden bg-[#0A4740]'>
             <img src={toplayer} alt="images" className='w-full' />
             <div className='container max-w-[1038px] relative z-10'>
-                <h2 data-aos="fade-up" data-aos-duration="1500" className='font-Chewy sm:text-[64px] text-[35px] font-normal text-white text-center leading-[132%]'>Utility and Usecase</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1500" className='font-Chewy sm:text-[64px] text-[35px] font-normal text-white text-center leading-[132%] mt-5 sm:mt-10 md:mt-[70px]'>Utility and Usecase</h2>
                 <div className='relative z-10 xl:mt-[158px] max-lg:overflow-hidden lg:mt-[100px] md:mt-[70px] mt-[30px] rounded-[20px] border border-solid lg:h-[266px] border-white bg-[#09655A] lg:py-[62px] pt-[40px] lg:pl-[39px] lg:pr-[26px] px-[20px] flex lg:justify-between lg:flex-row flex-col'>
                     <div>
                         <p data-aos="fade-up" data-aos-duration="1500" className='max-w-[681px] xl:text-[32px] lg:text-[29px] sm:text-[32px] text-[23px] font-normal text-white leading-[119%] font-Balsamiq'>We are going to work hard in otder to add <span className='text-[#8EC627]'>$</span>
