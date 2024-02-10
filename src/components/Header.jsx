@@ -10,9 +10,9 @@ export const Header = () => {
         <header className="bg-[url(./assets/images/headerbg.webp)] bg-cover bg-center w-full min-h-[730px] sm:min-h-[890px] 2xl:min-h-[70vh] relative overflow-hidden -top-[100px]">
             <div className='grid grid-cols-1 sm:grid-cols-2 container max-w-[1040px] z-[3] mt-[140px] sm:mt-[178px] relative gap-5'>
                 <div className='flex items-center md:items-end max-lg:justify-center'>
-                    <img className='w-full max-w-[250px] md:max-w-[394px] max-h-[170px] md:max-h-[240px] animate-flip3' src={aeroplane} alt="aeroplane" />
+                    <img data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200" className='w-full max-w-[250px] md:max-w-[394px] max-h-[170px] md:max-h-[240px] animate-flip3' src={aeroplane} alt="aeroplane" />
                 </div>
-                <h1 className='font-Lucky text-[100px] sm:text-[120px] md:text-[150px] lg:text-[175.64px] font-normal leading-[106.13px] sm:leading-[126.13px] md:leading-[146.13px] lg:leading-[166.13px]  ml-3 sm:ml-6 flex flex-col text-center uppercase drop-shadow-[0px_6px_0px_#000000]'>
+                <h1 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200" className='font-Lucky text-[100px] sm:text-[120px] md:text-[150px] lg:text-[175.64px] font-normal leading-[106.13px] sm:leading-[126.13px] md:leading-[146.13px] lg:leading-[166.13px]  ml-3 sm:ml-6 flex flex-col text-center uppercase drop-shadow-[0px_6px_0px_#000000]'>
                     <span>
                         <span className='text-[#FBA11D] duration-300 hover:text-[#D45B07]'>D</span>
                         <span className=' text-[#23AAAC] duration-300 hover:text-[#8EC627]'>i</span>

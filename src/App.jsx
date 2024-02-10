@@ -5,24 +5,21 @@ import { Index } from './pages/Index'
 import About from './pages/About'
 import ScrollToTop from './components/ScrollToTop'
 import { usePreloader } from './components/Hooks'
-import useNetwork from './components/useNetwork'
-// import { Alert } from '@mui/material'
 import Preloder from './components/Preloader'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 function App() {
-  const networkState = useNetwork();
+  useEffect(() => { AOS.init({ once: true, }); }, [])
   const isLoading = usePreloader();
   return (
     <>
-      {/* {!networkState.online && <Alert className="fixed bottom-0 z-[100] max-md:!hidden" severity="error">you lost your internet connection</Alert>} */}
       {isLoading ? (<Preloder />) : (<>
         <Nav />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/Tokenomic" element={<Mision />} /> */}
-          {/* <Route path="/Roadmap" element={<Traga />} /> */}
         </Routes>
-        {/* <Footer /> */}
         <ScrollToTop />
       </>)}
     </>
