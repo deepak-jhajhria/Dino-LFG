@@ -7,7 +7,7 @@ import skyleft from '../assets/images/skyheaderleft.png'
 import skyright from '../assets/images/skyheaderright.png'
 export const Header = () => {
     return (
-        <header className="bg-[url(./assets/images/headerbg.webp)] bg-cover bg-center w-full min-h-[730px] sm:min-h-[890px] 2xl:min-h-[70vh] relative overflow-hidden -top-[100px]">
+        <header className="bg-[url(./assets/images/headerbg2.webp)] bg-cover bg-center w-full min-h-[730px] sm:min-h-[890px] 2xl:min-h-[70vh] relative overflow-hidden -top-[100px]">
             <div className='grid grid-cols-1 sm:grid-cols-2 container max-w-[1040px] z-[3] mt-[140px] sm:mt-[178px] relative gap-5'>
                 <div className='flex items-center md:items-end max-lg:justify-center'>
                     <img data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200" className='w-full max-w-[250px] md:max-w-[394px] max-h-[170px] md:max-h-[240px] animate-flip3' src={aeroplane} alt="aeroplane" />
@@ -30,8 +30,8 @@ export const Header = () => {
             <img className='absolute bottom-[5%] sm:bottom-[9%] md:bottom-[11%] xl:bottom-[15%] z-[1] right-10 md:right-20 max-w-[80px] sm:max-w-[120px] w-full lg:max-w-[211px] lg:w-[14%] 2xl:w-full' src={diyno2} alt="" />
             <div className='absolute left-0 right-0 z-0 -bottom-6'><img className='w-full max-md:min-h-[260px]' src={headerbottombg} alt="" /></div>
             <div className='absolute bottom-0 -right-2 -left-10'><img className='w-full min-h-[40px] md:min-h-[66px] xl:min-h-[134px]' src={bottomshadow} alt="" /></div>
-            <img className='absolute top-[26%] left-0 w-[13%] sm:w-[9%] max-w-[117px]' src={skyleft} alt="" />
-            <img className='absolute top-[16%] right-0 w-[20%] sm:w-[12%] max-w-[172px]' src={skyright} alt="" />
+            <img className='absolute top-[26%] left-0 w-[13%] sm:w-[9%] max-w-[117px]' src={skyleft} alt="image" />
+            <img className='absolute top-[16%] right-0 w-[20%] sm:w-[12%] max-w-[172px]' src={skyright} alt="image" />
         </header>
     )
 }
