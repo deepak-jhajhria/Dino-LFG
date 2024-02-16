@@ -7,11 +7,11 @@ const Faq = () => {
         setOpen(open === index ? true : index);
     };
     const accordionData = [
-        { id: 1, title: "Maecenas laoreet, sapien vel cursus ultricies?", content: "Maecenas laoreet, sapien vel cursus ultricies, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar." },
-        { id: 2, title: "Maecenas laoreet, sapien vel cursus ultricies?", content: "Maecenas laoreet, sapien vel cursus ultricies, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar." },
-        { id: 3, title: "Maecenas laoreet, sapien vel cursus ultricies?", content: "Maecenas laoreet, sapien vel cursus ultricies, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar." },
-        { id: 4, title: "Maecenas laoreet, sapien vel cursus ultricies?", content: "Maecenas laoreet, sapien vel cursus ultricies, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar." },
-        { id: 5, title: "Maecenas laoreet, sapien vel cursus ultricies?", content: "Maecenas laoreet, sapien vel cursus ultricies, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar." },
+        { id: 1, title: "Maecenas laoreet, sapien vel cursus ultricies?", content: "Maecenas laoreet, sapien vel cursus ultricies, ofrecemos exper únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar." },
+        { id: 2, title: "Maecenas laoreet, sapien vel cursus ultricies?", content: "Maecenas laoreet, sapien vel cursus ultricies, ofrecemos exper únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar." },
+        { id: 3, title: "Maecenas laoreet, sapien vel cursus ultricies?", content: "Maecenas laoreet, sapien vel cursus ultricies, ofrecemos exper únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar." },
+        { id: 4, title: "Maecenas laoreet, sapien vel cursus ultricies?", content: "Maecenas laoreet, sapien vel cursus ultricies, ofrecemos exper únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar." },
+        { id: 5, title: "Maecenas laoreet, sapien vel cursus ultricies?", content: "Maecenas laoreet, sapien vel cursus ultricies, ofrecemos exper únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar." },
     ];
     return (
         <div className="relative bg-[#0A4740]">
@@ -25,7 +25,7 @@ const Faq = () => {
                                 <h2 className="w-[90%] text-white font-Balsamiq font-bold text-sm xs:text-base sm:text-lg md:text-xl md:leading-6">{item.title}</h2>
                                 <span className="flex items-center justify-center mt-1">{open === index ? (<span className="flex items-center justify-center bg-white rounded-full w-9 h-9"><FaqDown /></span>) : (<span className="flex items-center justify-center bg-white rounded-full w-9 h-9"><FaqUp /></span>)}</span>
                             </div>
-                            <p className={`duration-300 font-Balsamiq font-medium text-xs xs:text-sm sm:text-base text-white opacity-80 leading-6 overflow-hidden max-w-[700px]  ${open === index ? "max-h-36 sm:max-h-24 -mt-4 pb-4" : "max-h-0"}`}>{item.content}</p>
+                            <p className={`duration-300 font-Balsamiq font-medium text-xs xs:text-sm sm:text-base text-white opacity-80 leading-6 overflow-hidden w-[95%] max-w-[700px]  ${open === index ? "max-h-36 sm:max-h-24 -mt-4 pb-4" : "max-h-0"}`}>{item.content}</p>
                         </div>))
                     }
                 </div>

@@ -13,7 +13,7 @@ const Roadmap = () => {
                     <h2 data-aos="fade-up" data-aos-duration="1500" className='sm:text-[64px] text-[40px] font-normal text-white text-center font-Chewy leading-[132%] relative mb-10'>Roadmap</h2>
                     <div className="container max-w-[768px] lg:max-w-[1000px] relative lg:mt-[83px]">
                         <div className='relative flex flex-col items-center justify-between lg:flex-row max-md:ml-10 max-sm:gap-5 z-[1] max-md:mt-10 max-md:pt-20'>
-                            <div className='flex items-center max-sm:gap-5 max-sm:flex-col'>
+                            <div className='flex items-center max-sm:gap-8 max-sm:flex-col'>
                                 <h2 data-aos="fade-up" data-aos-duration="1500" className='text-[100px] sm:text-[150px] md:text-[200px] font-normal sm:leading-[130%] leading-[70%] font-Chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]'>01 </h2>
                                 <ol data-aos="fade-up" data-aos-duration="1500" className='flex flex-col gap-4 list-disc pl-[30px]'>
                                     <li className='text-base sm:text-lg md:text-xl font-normal font-Balsamiq text-white leading-[121%]'>Launch $DINO & Website & Social Media.</li>
@@ -25,7 +25,7 @@ const Roadmap = () => {
                         </div>
                         <div className='relative z-10 flex items-center max-md:mt-10 max-md:pt-20 md:items-end lg:items-end md:mt-[155px] max-md:ml-10 max-lg:ml-16 lg:mt-[200px] flex-col lg:flex-row max-sm:gap-5'>
                             <div className='flex order-2 lg:order-1 max-sm:justify-center'><img data-aos="fade-up" data-aos-duration="1500" src={TimeChris} alt="TimeChris" className='md:mr-20 max-md:max-w-[100px] max-md:absolute -left-[69px] top-0' /></div>
-                            <div className='flex items-center order-1 max-sm:gap-8 max-sm:flex-col lg:order-2'>
+                            <div className='flex items-center order-1 max-sm:gap-12 max-sm:flex-col lg:order-2'>
                                 <h2 data-aos="fade-up" data-aos-duration="1500" className='text-[100px] sm:text-[150px] md:text-[200px] leading-[100%] sm:leading-[145%] font-Chewy font-normal text-[#8EC627] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] -mb-[30px]'>02</h2>
                                 <ol data-aos="fade-up" data-aos-duration="1500" className='flex flex-col gap-4 list-disc pl-[30px]'>
                                     <li className='text-base sm:text-lg md:text-xl font-normal font-Balsamiq text-white leading-[121%]'>CoinGecko & Coinmarketcap listing.</li>
@@ -35,7 +35,7 @@ const Roadmap = () => {
                             </div>
                         </div>
                         <div className='relative z-10 flex items-center max-md:mt-10 max-md:pt-20 lg:items-end flex-col lg:flex-row sm:justify-between mt-10 sm:mt-8 md:mt-[70px]'>
-                            <div className='flex items-center -mb-8 max-sm:gap-5 max-sm:flex-col'>
+                            <div className='flex items-center -mb-8 max-sm:gap-5 max-sm:flex-col max-sm:max-w-[180px]'>
                                 <h2 data-aos="fade-up" data-aos-duration="1500" className='text-[105px] sm:text-[155px] md:text-[220.95px] font-normal font-Chewy text-[#D45B07] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] leading-[100%] sm:leading-[131%]'>03</h2>
                                 <ol data-aos="fade-up" data-aos-duration="1500" className='flex flex-col gap-4 list-disc pl-[30px]'>
                                     <li className='text-base sm:text-lg md:text-xl font-normal font-Balsamiq text-white leading-[121%]'>Utility and Usecase Introduction.</li>
@@ -49,7 +49,7 @@ const Roadmap = () => {
                             <div className='flex flex-col items-center md:items-start'>
                                 <div className='flex items-center max-sm:gap-5 max-sm:flex-col'>
                                     <h2 data-aos="fade-up" data-aos-duration="1500" className='text-[100px] sm:text-[150px] md:text-[200px] font-Chewy font-normal text-[#23AAAC] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] leading-[100%] sm:leading-[145%]'>04</h2>
-                                    <ol data-aos="fade-up" data-aos-duration="1500" className='flex flex-col gap-4 list-disc pl-[30px]'>
+                                    <ol data-aos="fade-up" data-aos-duration="1500" className='flex flex-col gap-4 list-disc pl-[30px] '>
                                         <li className='text-base sm:text-lg md:text-xl font-normal font-Balsamiq text-white leading-[121%]'>Staking Introduction.</li>
                                         <li className='text-base sm:text-lg md:text-xl font-normal font-Balsamiq text-white leading-[121%]'>DINO NFT Collection.</li>
                                         <li className='text-base sm:text-lg md:text-xl font-normal font-Balsamiq text-white leading-[121%]'>Marketing Phase 4</li>
@@ -58,8 +58,8 @@ const Roadmap = () => {
                                 <img data-aos="fade-up" data-aos-duration="1500" src={Timegrass} alt="Timegrass" className='lg:mt-10 md:-translate-y-4 max-md:max-w-[100px] max-md:absolute -left-16 top-0' />
                             </div>
                         </div>
-                        <img src={TimelineDashed} alt="TimelineDashed" className='absolute max-lg:hidden w-full top-[111px] left-[7%] h-[90%] z-0' />
-                        <img src={TimelineDashed2} alt="TimelineDashed" className='absolute hidden md:block lg:hidden w-full top-[111px] left-[7%] h-[90%] z-0' />
+                        <img src={TimelineDashed} alt="TimelineDashed" className='absolute max-lg:hidden w-full top-[111px] left-[7%] h-[92%] z-0' />
+                        <img src={TimelineDashed2} alt="TimelineDashed" className='absolute hidden md:block lg:hidden w-full top-[111px] left-[7%] h-[92%] z-0' />
                         <div className='md:hidden block absolute left-5 top-0 bottom-0 w-3 border-l-[11px] border-dashed border-[#0a4740]'></div>
                     </div>
                 </div>

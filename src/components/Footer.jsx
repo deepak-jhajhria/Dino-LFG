@@ -1,6 +1,6 @@
 import { DiscordFooter, InstaFooter, TwitterFooter } from "./Icons"
 import footerbottom from '../assets/images/footerbottom.webp'
-import dino from '../assets/images/footerdino.webp'
+import dino from '../assets/images/footerdino.png'
 const Footer = () => {
     return (
         <div className=" bg-[#0A4740] w-full relative -mt-[1px]">
@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
             </div>
             <img className="w-full max-sm:min-h-[150px]" src={footerbottom} alt="image" />
-            <img className="absolute bottom-4 right-20 max-lg:w-[16%] animate-cycle" src={dino} alt="image" />
+            <img className="absolute bottom-4 right-20 max-lg:w-[16%] max-w-[211px]" src={dino} alt="image" />
         </div>
     )
 }

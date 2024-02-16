@@ -1,5 +1,5 @@
-import diyno from '../assets/images/diyno.webp'
-import aeroplane from '../assets/images/aeroplane.webp'
+import diyno from '../assets/images/dinoheader.png'
+import aeroplane from '../assets/images/aeroplane.png'
 import diyno2 from '../assets/images/diyno2.webp'
 import headerbottombg from '../assets/images/headerbottombg.webp'
 import bottomshadow from '../assets/images/bottomshadw.webp'
