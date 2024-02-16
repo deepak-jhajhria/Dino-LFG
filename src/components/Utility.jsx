@@ -11,7 +11,7 @@ const Utility = () => {
             <div className='container max-w-[1038px] relative z-10'>
                 <h2 data-aos="fade-up" data-aos-duration="1500" className='font-Chewy sm:text-[64px] text-[40px] font-normal text-white text-center leading-[132%] mt-5 sm:mt-10 md:mt-[70px]'>Utility and Usecase</h2>
                 <div className='relative z-10 xl:mt-[158px] max-lg:overflow-hidden lg:mt-[100px] md:mt-[70px] mt-[30px] rounded-[20px] border border-solid lg:h-[266px] border-white bg-[#09655A] lg:py-[62px] pt-[40px] lg:pl-[39px] lg:pr-[26px] px-[20px] flex lg:justify-between lg:flex-row flex-col'>
-                    <div>
+                    <>
                         <p data-aos="fade-up" data-aos-duration="1500" className='max-w-[681px] xl:text-[32px] lg:text-[29px] sm:text-[32px] text-2xl font-normal text-white leading-[119%] font-Balsamiq'>We are going to work hard in otder to add <span className='text-[#8EC627]'>$</span>
                             <span className='text-[#FBA11D]'>D</span>
                             <span className='text-[#23AAAC]'>I</span>
@@ -21,7 +21,7 @@ const Utility = () => {
                             <span className='text-[#FBA11D]'>D</span>
                             <span className='text-[#23AAAC]'>I</span>
                             <span className='text-[#D45B07]'>N</span>
-                            <span className='text-[#FB5352]'>O</span></p></div>
+                            <span className='text-[#FB5352]'>O</span></p></>
                     <div className='flex max-lg:justify-center'><img data-aos="fade-up" data-aos-duration="1500" src={dino1} alt="images" className=' lg:absolute max-lg:ml right-0 -top-[67px] sm:max-w-[253px] max-w-[160px] lg:mt-0 mt-6 lg:h-[332px] w-full' /></div>
                 </div>
                 <div className='relative max-lg:overflow-hidden z-20 lg:mt-[125px] sm:mt-16 mt-[20px] rounded-[20px] border border-solid bg-[#09655A] lg:py-[95px] pt-[40px] lg:pr-[27px] lg:pl-0 px-5 lg:h-[266px] border-white flex lg:justify-between lg:flex-row flex-col-reverse lg:items-center '>

@@ -10,8 +10,8 @@ import sky from "../assets/images/tekosky.webp";
 import { TekoFirst, TekoFirstLine, TekoFive, TekoFiveLine, TekoFourth, TekoFourthLine, TekoSecond, TekoSecondLine, TekoThird, TekoThirdLine } from "./Icons";
 const Tokenomics = () => {
     return (
-        <div className="relative bg-[#0A4740] min-h-[450px] sm:min-h-[700px] md:min-h-[1000px] lg:min-h-[1217px] overflow-hidden">
-            <img className=" right-0 -mt-1 min-h-[17%]" src={shadow} alt="image" />
+        <div id="teko" className="relative bg-[#0A4740] min-h-[450px] sm:min-h-[700px] md:min-h-[1000px] lg:min-h-[1217px] overflow-hidden">
+            <img className="-mt-1 min-h-[17%]" src={shadow} alt="image" />
             <img className="absolute right-0 top-[10%] w-[30%]" src={sky} alt="image" />
             <img className="absolute bottom-0 right-0 -mt-1 min-h-[17%] w-full" src={shadow2} alt="image" />
             <img className="absolute bottom-0 left-0 -mt-1 w-[21%]" src={tree1} alt="image" />
@@ -20,7 +20,7 @@ const Tokenomics = () => {
             <img className="absolute bottom-0 right-[8%] sm:right-[10%] -mt-1 w-[20%] sm:w-[12%]" src={tree4} alt="image" />
             <img className="absolute bottom-0 left-0 -mt-1 translate-y-[40%] w-[30%] sm:w-[26%]" src={panda} alt="image" />
             <div className="container relative z-[1] max-w-[1147px]">
-                <h2 id="teko" data-aos="fade-up" data-aos-duration="1500" className="text-white font-normal font-Chewy sm:text-[64px] text-[40px] leading-[83px] text-center">Tokenomics</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1500" className="text-white font-normal font-Chewy sm:text-[64px] text-[40px] leading-[83px] text-center">Tokenomics</h2>
                 <div className="relative flex items-center justify-center  sm:mt-12 md:mt-16 lg:mt-20 max-w-[133px] mx-auto">
                     <img data-aos="fade-up" data-aos-duration="1500" className=" w-full max-w-[80px] sm:max-w-[113px] md:max-w-[133px] animate-flip3" src={panda2} alt="images" />
 
@@ -43,7 +43,7 @@ const Tokenomics = () => {
 
                     <div data-aos="fade-up" data-aos-duration="1500" className="absolute top-[117px] sm:top-[141px] md:top-[186px] z-[3] group cursor-pointer"><TekoThird />
                         <p data-aos="fade-up" data-aos-duration="1500" className="text-[#D45B07] leading-[119%] sm:text-3xl lg:text-[32px] text-sm absolute top-24 sm:top-44 text-nowrap left-2 sm:left-10 font-normal font-Balsamiq md:top-[270px] md:left-8">No Tax</p>
-                        <span data-aos="fade-up" data-aos-duration="1500" className="absolute top-[70px] sm:top-32 md:top-[205px] left-8 sm:left-16"><TekoThirdLine /></span>
+                        <span data-aos="fade-up" data-aos-duration="1500" className="absolute top-[70px] sm:top-32 md:top-[205px] left-8 sm:left-16 md:left-[83px]"><TekoThirdLine /></span>
                     </div>
 
                     <div data-aos="fade-up" data-aos-duration="1500" className="absolute -right-[17px] sm:-right-[81px] md:-right-[172px] top-[102px] sm:top-[114px] md:top-[144px] z-[2] group cursor-pointer"><TekoFourth />
