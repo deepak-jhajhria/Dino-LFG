@@ -7,7 +7,7 @@ import skyleft from '../assets/images/skyheaderleft.webp'
 import skyright from '../assets/images/skyheaderright.webp'
 export const Header = () => {
     return (
-        <header className="bg-[url(./assets/images/headerbg2.webp)] bg-cover bg-center w-full min-h-[730px] sm:min-h-[890px] xl:min-h-screen  relative overflow-hidden -top-[100px]">
+        <header className="bg-[url(./assets/images/headerbg2.webp)] bg-cover bg-center w-full min-h-[730px] sm:min-h-[890px] relative overflow-hidden -top-[100px]">
             <div className='grid grid-cols-1 sm:grid-cols-2 container max-w-[1040px] z-[3] mt-[140px] sm:mt-[178px] relative gap-5'>
                 <div className='flex items-center md:items-end max-lg:justify-center'>
                     <img data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200" className='w-full max-w-[250px] md:max-w-[394px] max-h-[170px] md:max-h-[240px] animate-flip3' src={aeroplane} alt="aeroplane" />
