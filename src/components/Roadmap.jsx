@@ -46,10 +46,10 @@ const Roadmap = () => {
                             <img data-aos="fade-up" data-aos-duration="1500" src={Timedinechris} alt="Timedinechris" className='max-md:max-w-[100px] max-md:absolute -left-7 top-0' />
                         </div>
                         <div className='relative z-10 mt-8 md:mt-[100px] lg:mt-[214px] max-md:mt-20 max-md:pt-10 max-sm:pb-0 max-lg:pb-20 flex max-md:ml-10 max-sm:justify-center md:justify-center'>
-                            <div className='flex flex-col items-center md:items-start'>
-                                <div className='flex items-center max-sm:gap-5 max-sm:flex-col'>
+                            <div className='flex flex-col items-center md:items-start lg:ml-[150px] lg:-mb-[30px]'>
+                                <div className='flex items-center max-sm:gap-5 max-sm:flex-col lg:gap-5 ml-10 lg:-ml-[50px]'>
                                     <h2 data-aos="fade-up" data-aos-duration="1500" className='text-[100px] sm:text-[150px] md:text-[200px] font-Chewy font-normal text-[#23AAAC] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] leading-[100%] sm:leading-[145%]'>04</h2>
-                                    <ol data-aos="fade-up" data-aos-duration="1500" className='flex flex-col gap-4 list-disc pl-[30px] '>
+                                    <ol data-aos="fade-up" data-aos-duration="1500" className='flex flex-col gap-4 list-disc pl-[30px]'>
                                         <li className='text-base sm:text-lg md:text-xl font-normal font-Balsamiq text-white leading-[121%]'>Staking Introduction.</li>
                                         <li className='text-base sm:text-lg md:text-xl font-normal font-Balsamiq text-white leading-[121%]'>DINO NFT Collection.</li>
                                         <li className='text-base sm:text-lg md:text-xl font-normal font-Balsamiq text-white leading-[121%]'>Marketing Phase 4</li>
